@@ -17,7 +17,7 @@ rpm -i kernel*.src.rpm
 
 cp kernel.spec rpmbuild/SPECS
 
-cp override_for_missing_acs_capabilities.patch rpmbuild/ 
+cp override_for_missing_acs_capabilities.patch rpmbuild/SOURCE 
 
 ```
 
